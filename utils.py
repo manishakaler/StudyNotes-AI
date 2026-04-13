@@ -8,7 +8,8 @@ import streamlit as st
 
 load_dotenv()
 
-API_KEY= None, MODEL_NAME = None
+API_KEY= None
+MODEL_NAME = None
 if hasattr(st, "secrets") and "GEMINI_API_KEY" in st.secrets:
     API_KEY = st.secrets["GEMINI_API_KEY"]
 else:
