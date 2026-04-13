@@ -1,0 +1,4 @@
+streamlit
+sqlalchemy
+google-genai
+python-dotenv
